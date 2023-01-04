@@ -1,0 +1,16 @@
+.extra-skills {
+  width: 100%;
+  display: grid;
+  padding: var(--margin-one) var(--margin-four);
+}
+
+.extra-skills div h2 {
+  font-size: var(--font-size-h2);
+}
+.extra-skill-item-container .extra-skill-item {
+  margin: var(--padding-one) 0;
+}
+
+.extra-skill-item-container .extra-skill-item span:nth-child(2){
+  padding-left: var(--padding-one);
+}

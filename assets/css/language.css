@@ -1,0 +1,9 @@
+.languages {
+  width: 100%;
+  padding: var(--margin-one) var(--margin-four);
+}
+
+.languages div h2 {
+  font-size: var(--font-size-h2);
+}
+ 

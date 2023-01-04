@@ -1,0 +1,24 @@
+.info {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "info-item-lbl1 info-item-val1"
+  "info-item-lbl2 info-item-val2"
+  "info-item-lbl3 info-item-val3"
+  "info-item-lbl4 info-item-val4";
+  padding: var(--margin-one) var(--margin-four);
+}
+
+.info 
+.info-item-lbl1, .info-item-lbl2, .info-item-lbl3, .info-item-lbl4, 
+.info-item-val1, .info-item-val2, .info-item-val3, .info-item-val4 {
+  margin: var(--margin-one) 0;
+  padding-left: var(--padding-one);
+}
+
+.info .info-item-lbl1, .info-item-lbl2, .info-item-lbl3, .info-item-lbl4 {
+  background-color: var(--secondary-bg-color);
+}
+
+.info .info-item-val1, .info-item-val2, .info-item-val3, .info-item-val4 {
+  overflow-wrap: break-word;
+}
